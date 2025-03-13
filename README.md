@@ -22,14 +22,20 @@ Developed by Deccatron, ATMRecon is a powerful tool for anyone looking to identi
 
 _**Commands**_
 
---subnet [subnet]
---ports [port range]
---threads [number of threads]
---timeout [connection timeout in seconds]
---verbose (enable verbose logging)
---scan_type [scan type: SYN, TCP, UDP]
---help [outputs commands]
+usage: atmrecon.py [-h] [--subnet SUBNET] [--ports PORTS] [--threads THREADS]
+                   [--timeout TIMEOUT] [--verbose] [--scan_type {SYN,TCP,UDP}]
 
+ATM Network Scanner Tool - AKA ATMRecon
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --subnet SUBNET       Subnet to scan (default: 192.168.1.0/24)
+  --ports PORTS         Port range to scan (default: 443,1025,3000-3099)
+  --threads THREADS     Number of threads (default: 20)
+  --timeout TIMEOUT     Connection timeout in seconds (default: 3)
+  --verbose             Enable verbose output (because who doesn’t love detailed logs?)
+  --scan_type {SYN,TCP,UDP}
+                        Scan type to perform (choices: SYN, TCP, UDP, default: SYN)
 
 ---------------------------------------------------------------------------
 
