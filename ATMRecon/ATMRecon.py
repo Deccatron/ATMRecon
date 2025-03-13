@@ -264,5 +264,5 @@ def main():
         logging.error(f"Unexpected error: {str(e)}")
 
 if __name__ == "__main__":
-    logging.info("\n\nDeveloped by Deccatron | For Strictly Legal Security Testing!\n")
+    logging.info("\n\nDeveloped by Deccatron | Strictly For Legal Security Testing Usage!\n")
     main()
