@@ -1,16 +1,16 @@
 **_ATMRecon_**
 
- ▄▄▄    ▄▄▄█████▓███▄ ▄███▓██▀███ ▓█████ ▄████▄  ▒█████  ███▄    █ 
-▒████▄  ▓  ██▒ ▓▓██▒▀█▀ ██▓██ ▒ ██▓█   ▀▒██▀ ▀█ ▒██▒  ██▒██ ▀█   █ 
-▒██  ▀█▄▒ ▓██░ ▒▓██    ▓██▓██ ░▄█ ▒███  ▒▓█    ▄▒██░  ██▓██  ▀█ ██▒
-░██▄▄▄▄█░ ▓██▓ ░▒██    ▒██▒██▀▀█▄ ▒▓█  ▄▒▓▓▄ ▄██▒██   ██▓██▒  ▐▌██▒
- ▓█   ▓██▒▒██▒ ░▒██▒   ░██░██▓ ▒██░▒████▒ ▓███▀ ░ ████▓▒▒██░   ▓██░
- ▒▒   ▓▒█░▒ ░░  ░ ▒░   ░  ░ ▒▓ ░▒▓░░ ▒░ ░ ░▒ ▒  ░ ▒░▒░▒░░ ▒░   ▒ ▒ 
-  ▒   ▒▒ ░  ░   ░  ░      ░ ░▒ ░ ▒░░ ░  ░ ░  ▒    ░ ▒ ▒░░ ░░   ░ ▒░
-  ░   ▒   ░     ░      ░    ░░   ░   ░  ░       ░ ░ ░ ▒    ░   ░ ░ 
-      ░  ░             ░     ░       ░  ░ ░         ░ ░          ░ 
-                                        ░                          
-                                             ░                        
+                                                   
+     .oooooooo     o .oPYo.                        
+    .P 8  8  8b   d8 8   `8                        
+   .P  8  8  8`b d'8o8YooP'.oPYo..oPYo..oPYo.odYo. 
+  oPooo8  8  8 `o' 8 8   `b8oooo88    '8    88' `8 
+ .P    8  8  8     8 8    88.    8    .8    88   8 
+.P     8  8  8     8 8    8`Yooo'`YooP'`YooP'8   8 
+..:::::.::..:..::::.:..:::.:.....:.....:.......::..
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ---------------------------------------------------------------------------
 
 ATMRecon is a network scanning tool designed to help cybersecurity professionals and enthusiasts identify and assess ATM-related devices on a given subnet. By scanning for open ports and identifying services that are commonly associated with ATMs, such as HTTPS (443), ATM protocols (1025), and ATM management services (3000-3010), ATMRecon provides valuable insights into potentially vulnerable ATM machines and other related devices.
