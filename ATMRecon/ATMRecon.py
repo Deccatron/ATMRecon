@@ -10,19 +10,24 @@ import requests
 
 def parse_arguments():
     """Parse those fancy command line arguments."""
-    parser = argparse.ArgumentParser(description='ATM Network Scanner Tool - AKA ATMRecon')
+    parser = argparse.ArgumentParser(
+        description='ATM Network Scanner Tool - AKA ATMRecon. This tool scans networks for ATM devices and checks for open ports and potential vulnerabilities.',
+        formatter_class=argparse.RawTextHelpFormatter  # Makes the help text easier to read
+    )
     parser.add_argument('--subnet', type=str, default='192.168.1.0/24',
                         help='Subnet to scan (default: 192.168.1.0/24)')
     parser.add_argument('--ports', type=str, default='443,1025,3000-3099',
-                        help='Port range to scan (default: 443,1025,3000-3099)')
+                        help='Port range to scan (default: 443,1025,3000-3099)\nExample: "443,1025,3000-3099"')
     parser.add_argument('--threads', type=int, default=20,
-                        help='Number of threads (default: 20)')
+                        help='Number of threads to use for scanning (default: 20)')
     parser.add_argument('--timeout', type=int, default=3,
                         help='Connection timeout in seconds (default: 3)')
     parser.add_argument('--verbose', action='store_true',
-                        help='Enable verbose output (because who doesn’t love detailed logs?)')
+                        help='Enable verbose output (default: False)')
     parser.add_argument('--scan_type', type=str, choices=['SYN', 'TCP', 'UDP'], default='SYN',
-                        help='Scan type to perform (choices: SYN, TCP, UDP, default: SYN)')
+                        help='Scan type to perform. Choose from: SYN, TCP, UDP (default: SYN)')
+    
+    # Help command will be automatically available due to argparse. 
     return parser.parse_args()
 
 def configure_logging(verbose):
@@ -259,5 +264,5 @@ def main():
         logging.error(f"Unexpected error: {str(e)}")
 
 if __name__ == "__main__":
-    logging.info("\n\nDeveloped by Deccatron | For Strictly Educational Use")
+    logging.info("\n\nDeveloped by Deccatron | For Strictly Legal Security Testing!\n")
     main()
