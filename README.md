@@ -16,7 +16,7 @@ Service identification: Detects ATM-related services through port and banner ana
 Exploit search: Integrates with the Exploit Database to check for known vulnerabilities related to identified services.
 Customizable scan types: Choose between SYN, TCP, or UDP scanning methods.
 Multithreading support: Run scans with multiple threads for faster performance.
-Developed by Deccatron, ATMRecon is a powerful tool for anyone looking to identify and analyze ATMs and
+Developed by Deccatron, ATMRecon is a powerful tool for anyone looking to identify and analyze ATM ports and services for pentest exploitation usage.
 
 ---------------------------------------------------------------------------
 
