@@ -20,4 +20,17 @@ Developed by Deccatron, ATMRecon is a powerful tool for anyone looking to identi
 
 ---------------------------------------------------------------------------
 
+_**Commands**_
+
+--subnet [subnet]
+--ports [port range]
+--threads [number of threads]
+--timeout [connection timeout in seconds]
+--verbose (enable verbose logging)
+--scan_type [scan type: SYN, TCP, UDP]
+--help [outputs commands]
+
+
+---------------------------------------------------------------------------
+
 _**ATMRecon was developed solely for educational and security research purposes. DO NOT use this software for any malicious activities.**_
